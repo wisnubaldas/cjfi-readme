@@ -2,7 +2,9 @@ site_name: CJFI
 nav:
     - Home: index.md
     - Mikrotik: mikrotik.md
-    - Server: server.md
+    - Server:
+      - CJFI-DEV: server/cjfi-dev.md
+      - Config: '#'
     - Tips & Trik: 
       - Setting Samba: tutorial/setting-samba.md
 theme:

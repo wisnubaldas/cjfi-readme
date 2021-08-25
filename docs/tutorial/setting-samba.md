@@ -43,3 +43,9 @@ Update the firewall rules to allow Samba traffic:
 ```bash
    sudo ufw allow samba
 ```
+
+``` bash
+adduser joe
+smbpasswd -a joe
+service smb restart
+```
