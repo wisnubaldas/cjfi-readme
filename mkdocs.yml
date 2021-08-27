@@ -1,10 +1,12 @@
 site_name: CJFI
 nav:
     - Home: index.md
-    - Mikrotik: mikrotik.md
+    - Aplikasi:
+      - NAS Backup Depo: aplikasi/data-depo.md
     - Server:
+      - Mikrotik: mikrotik.md
       - CJFI-DEV: server/cjfi-dev.md
-      - Config: '#'
+      - Config CJFI-DEV: '#'
     - Tips & Trik: 
       - Setting Samba: tutorial/setting-samba.md
 theme:

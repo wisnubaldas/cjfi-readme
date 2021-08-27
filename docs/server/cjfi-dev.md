@@ -1,8 +1,4 @@
 !!! note
-    Konfigurasi status dan port forwarding pada server.
-
-### Server CJFI-DEV ###
-
     Linux cjfi-dev 5.4.0-80-generic #90~18.04.1-Ubuntu SMP Tue Jul 13 19:40:02 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
 
 ![Glances](/assets/img/glances.JPG)
