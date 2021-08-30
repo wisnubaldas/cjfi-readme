@@ -1,17 +1,23 @@
 site_name: CJFI
+extra:
+  homepage: cjfi.co.id
 nav:
     - Home: index.md
     - Aplikasi:
+      - Query IDER: 'aplikasi/query-iderp.md'
       - NAS Backup Depo: aplikasi/data-depo.md
     - Server:
       - Mikrotik: mikrotik.md
       - CJFI-DEV: server/cjfi-dev.md
-      - Config CJFI-DEV: '#'
+      - CJFI: server/cjfi.md
     - Tips & Trik: 
       - Setting Samba: tutorial/setting-samba.md
 theme:
   name: material
   language: id
+  font:
+    text: Roboto
+    code: Roboto Mono
   palette:
     scheme: default
     primary: black
@@ -19,8 +25,10 @@ theme:
   logo: logo_30.png
   features:
     - content.code.annotate
-extra:
-  homepage: cjfi.co.id
+plugins:
+  - macros:
+      include_dir: docs/snippets
+
 markdown_extensions:
   - abbr
   - pymdownx.highlight:
@@ -38,6 +46,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
+  - pymdownx.tabbed
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
   - javascripts/config.js

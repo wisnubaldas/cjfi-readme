@@ -2,5 +2,9 @@
 !!! note
     Kumpulan dokumentasi kerjaan IT
 
-- [x] [Setup dan konfig di router mikrotik](mikrotik)
-- [x] [Konfigurasi Server](server)
+!!! help
+    [Backup file configurasi Navicat 12^](assets/connections.zip)
+
+!!! tip
+    [Kumpulan Query IDERP](assets/query_iderp.rar)  
+    [IDER PER MENU](assets/IDERP PER_MENU.rar)
