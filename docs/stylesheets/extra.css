@@ -1,0 +1,7 @@
+body {
+  font-family: 'Ubuntu';
+  font-size: 14px;
+}
+.md-sidebar--secondary > .md-sidebar__scrollwrap > .md-sidebar__inner{
+  font-size: 12px;
+}

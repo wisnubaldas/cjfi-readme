@@ -6,21 +6,22 @@ nav:
     - Aplikasi:
       - Query IDER: 'aplikasi/query-iderp.md'
       - NAS Backup Depo: aplikasi/data-depo.md
+      - Video Tutorial: aplikasi/survey.md
     - Server:
       - Mikrotik: mikrotik.md
       - CJFI-DEV: server/cjfi-dev.md
       - CJFI: server/cjfi.md
-    - Tips & Trik: 
+      - Other Server: server/server-project.md
+    - Tips & Trik:
+      - IDERP: tutorial/ips-trik-iderp.md 
       - Setting Samba: tutorial/setting-samba.md
 theme:
   name: material
   language: id
-  font:
-    text: Roboto
-    code: Roboto Mono
+  font: false
   palette:
     scheme: default
-    primary: black
+    primary: indigo
     accent: yellow
   logo: logo_30.png
   features:
@@ -51,5 +52,7 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
   - javascripts/config.js
 extra_css:
+  - https://fonts.googleapis.com/css?family=Ubuntu
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css
+  - stylesheets/extra.css
 

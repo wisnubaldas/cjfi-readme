@@ -17,4 +17,4 @@
      * [IDERP PER_MENU.z05](assets/IDERP PER_MENU.z05)
 
 !!! danger
-    
+    [All files list](assets/files/)
